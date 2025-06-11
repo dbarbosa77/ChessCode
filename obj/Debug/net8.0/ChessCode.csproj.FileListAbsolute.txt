@@ -1,0 +1,15 @@
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\bin\Debug\net8.0\ChessCode.exe
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\bin\Debug\net8.0\ChessCode.deps.json
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\bin\Debug\net8.0\ChessCode.runtimeconfig.json
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\bin\Debug\net8.0\ChessCode.dll
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\bin\Debug\net8.0\ChessCode.pdb
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ChessCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ChessCode.AssemblyInfoInputs.cache
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ChessCode.AssemblyInfo.cs
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ChessCode.csproj.CoreCompileInputs.cache
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ChessCode.sourcelink.json
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ChessCode.dll
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\refint\ChessCode.dll
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ChessCode.pdb
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ChessCode.genruntimeconfig.cache
+D:\Estudos\AulasNelio\Section17 Projeto Chess\ChessCode\ChessCode\obj\Debug\net8.0\ref\ChessCode.dll

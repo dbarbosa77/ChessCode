@@ -7,9 +7,9 @@ namespace ChessCode
     {
         static void Main(string[] args)
         {
-            Position P;
+            Board board = new Board(8, 8);
 
-            P = new Position(3, 4);
+            Screen.PrintBoard(board);
         }
     }
 }

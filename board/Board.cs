@@ -13,5 +13,10 @@ namespace ChessCode.board
             this.columns = columns;
             pieces = new Piece[lines, columns];
         }
+
+        public Piece piece(int line, int column)
+        {
+            return pieces[line, column];
+        }
     }
 }
