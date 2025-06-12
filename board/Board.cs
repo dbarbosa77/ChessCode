@@ -18,5 +18,11 @@ namespace ChessCode.board
         {
             return pieces[line, column];
         }
+
+        public void InsertPiece(Piece p, Position pos)
+        {
+            pieces[pos.line, pos.column] = p;
+            p.position = pos;
+        }
     }
 }
