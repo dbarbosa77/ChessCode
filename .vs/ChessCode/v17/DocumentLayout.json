@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\board\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:board\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\board\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:board\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\board\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:board\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:chess\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\boardexception\\boardexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:boardexception\\boardexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\chessmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:chess\\chessmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\chessposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:chess\\chessposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\boardexception\\boardexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:boardexception\\boardexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:chess\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\board\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:board\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\board\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:board\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\board\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:board\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,24 +54,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "ChessMatch.cs",
+              "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\ChessMatch.cs",
+              "RelativeDocumentMoniker": "chess\\ChessMatch.cs",
+              "ToolTip": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\ChessMatch.cs",
+              "RelativeToolTip": "chess\\ChessMatch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T20:34:10.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ChessPosition.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\ChessPosition.cs",
               "RelativeDocumentMoniker": "chess\\ChessPosition.cs",
               "ToolTip": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\ChessPosition.cs",
               "RelativeToolTip": "chess\\ChessPosition.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T20:06:50.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "BoardException.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\BoardException\\BoardException.cs",
               "RelativeDocumentMoniker": "BoardException\\BoardException.cs",
@@ -86,14 +103,14 @@
               "RelativeDocumentMoniker": "chess\\Tower.cs",
               "ToolTip": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\Tower.cs",
               "RelativeToolTip": "chess\\Tower.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T01:58:38.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "King.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\King.cs",
               "RelativeDocumentMoniker": "chess\\King.cs",
@@ -101,12 +118,11 @@
               "RelativeToolTip": "chess\\King.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T01:54:19.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T01:54:19.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Screen.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\Screen.cs",
               "RelativeDocumentMoniker": "Screen.cs",
@@ -119,33 +135,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Board.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\board\\Board.cs",
               "RelativeDocumentMoniker": "board\\Board.cs",
               "ToolTip": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\board\\Board.cs",
               "RelativeToolTip": "board\\Board.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA5wBoAAAAMAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwDIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T23:59:59.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Piece.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\board\\Piece.cs",
               "RelativeDocumentMoniker": "board\\Piece.cs",
               "ToolTip": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\board\\Piece.cs",
               "RelativeToolTip": "board\\Piece.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T23:56:54.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Color.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\board\\Color.cs",
               "RelativeDocumentMoniker": "board\\Color.cs",
@@ -157,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Position.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\board\\Position.cs",
               "RelativeDocumentMoniker": "board\\Position.cs",
@@ -165,18 +181,17 @@
               "RelativeToolTip": "board\\Position.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T23:48:58.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T23:48:58.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T23:35:12.051Z",
               "EditorCaption": ""

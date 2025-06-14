@@ -18,7 +18,7 @@ namespace ChessCode.chess
 
         public Position toPosition()
         {
-            return new Position(8 - line, column - 'A');
+            return new Position(8 - line, column - 'a');
         }
 
         public override string ToString()
