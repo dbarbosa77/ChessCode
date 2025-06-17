@@ -1,6 +1,6 @@
 ﻿namespace ChessCode.board
 {
-    class Piece
+    abstract class Piece
     {
         public Position position { get; set; }
         public Color color { get; protected set; }
@@ -15,6 +15,8 @@
             this.color = color;
             this.qtyMovements = 0;
         }
+
+        public abstract bool[,] possibleMovements();
 
         public void IncrementQtymovements()
         {
