@@ -8,6 +8,7 @@ namespace ChessCode.chess
         public Board board { get; private set; }
         private int round;
         private Color currentPlayer;
+        public bool finish { get; private set; }
 
 
         public ChessMatch()
@@ -15,6 +16,7 @@ namespace ChessCode.chess
             board = new Board(8, 8);
             round = 1;
             currentPlayer = Color.White;
+            finish = false;
             SetPieces();
         }
 
