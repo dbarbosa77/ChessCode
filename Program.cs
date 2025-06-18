@@ -20,6 +20,12 @@ namespace ChessCode
                     Console.WriteLine();
                     Console.Write("Origem: ");
                     Position origin = Screen.readPositionChess().toPosition();
+                    bool[,] posPosition = match.board.piece(origin).possibleMovements();
+
+                    Console.Clear();
+                    Screen.PrintBoard(match.board, posPosition);
+
+
                     Console.Write("Destino: ");
                     Position destination = Screen.readPositionChess().toPosition();
 
