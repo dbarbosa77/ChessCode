@@ -16,11 +16,33 @@
             this.qtyMovements = 0;
         }
 
-        public abstract bool[,] possibleMovements();
-
         public void IncrementQtymovements()
         {
             this.qtyMovements++;
         }
+
+        public bool existsPossibleMovements()
+        {
+            bool[,] mat = possibleMovements();
+            for (int i = 0; i < board.lines; i++)
+            {
+                for(int j = 0; j<board.columns; j++)
+                {
+                    if (mat[i, j] == true)
+                    {
+                        return true;
+                    }
+                }
+
+            }
+            return false;
+        }
+
+        public bool canMoveTo(Position pos)
+        {
+            return possibleMovements()[pos.line, pos.column];
+        }
+
+        public abstract bool[,] possibleMovements();
     }
 }

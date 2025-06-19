@@ -8,6 +8,42 @@ namespace ChessCode
 {
     class Screen
     {
+
+        public static void PrintMatch(ChessMatch match)
+        { 
+            PrintBoard(match.board);
+            Console.WriteLine();
+            PrintObtainedPieces(match);
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Turno: " + match.round);
+            Console.WriteLine("Aguardando jogada: " + match.currentPlayer);
+        }
+
+        public static void PrintObtainedPieces(ChessMatch match)
+        {
+            Console.WriteLine("Peças capturadas: ");
+            Console.Write("Brancas: ");
+            PrintSet(match.PiecesObtained(Color.White));
+            Console.WriteLine();
+            Console.Write("Pretas: ");
+            ConsoleColor aux = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            PrintSet(match.PiecesObtained(Color.Black));
+            Console.ForegroundColor = aux;
+        }
+
+        public static void PrintSet(HashSet<Piece> set)
+        {
+            Console.Write("[");
+            foreach(Piece x in set)
+            {
+                Console.Write(x + " ");
+            }
+            Console.Write("]");
+        }
+
         public static void PrintBoard(Board board)
         {
             for (int i = 0; i < board.lines; i++)

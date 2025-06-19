@@ -1,6 +1,7 @@
 ﻿using ChessCode.board;
 using ChessCode.chess;
 using System;
+using System.ComponentModel;
 
 namespace ChessCode
 {
@@ -14,23 +15,33 @@ namespace ChessCode
 
                 while (!match.finish)
                 {
-                    Console.Clear();
-                    Screen.PrintBoard(match.board);
+                    try
+                    {
+                        Console.Clear();
+                        Screen.PrintMatch(match);
+                        Console.WriteLine();
 
-                    Console.WriteLine();
-                    Console.Write("Origem: ");
-                    Position origin = Screen.readPositionChess().toPosition();
-                    bool[,] posPosition = match.board.piece(origin).possibleMovements();
+                        Console.Write("Origem: ");
+                        Position origin = Screen.readPositionChess().toPosition();
+                        match.ValidateOriginPosition(origin);
 
-                    Console.Clear();
-                    Screen.PrintBoard(match.board, posPosition);
+                        bool[,] posPosition = match.board.piece(origin).possibleMovements();
+
+                        Console.Clear();
+                        Screen.PrintBoard(match.board, posPosition);
 
 
-                    Console.Write("Destino: ");
-                    Position destination = Screen.readPositionChess().toPosition();
+                        Console.Write("Destino: ");
+                        Position destination = Screen.readPositionChess().toPosition();
+                        match.ValidateDestinationPosition(origin, destination);
 
-                    match.PerformMoviment(origin, destination);
-
+                        match.PerformPlay(origin, destination);
+                    }
+                    catch (BoardException e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadLine();
+                    }
                 }
 
                 Screen.PrintBoard(match.board);
