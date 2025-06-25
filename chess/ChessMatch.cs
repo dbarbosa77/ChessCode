@@ -13,6 +13,7 @@ namespace ChessCode.chess
 
         private HashSet<Piece> pieces;
         private HashSet<Piece> captured;
+        public bool Check { get; private set; }
 
 
         public ChessMatch()
@@ -21,13 +22,14 @@ namespace ChessCode.chess
             round = 1;
             currentPlayer = Color.White;
             finish = false;
+            Check = false;
             pieces = new HashSet<Piece>();
             captured = new HashSet<Piece>();
 
             SetPieces();
         }
 
-        public void PerformMoviment(Position origin, Position destination)
+        public Piece PerformMoviment(Position origin, Position destination)
         {
             Piece p = board.RemovePiece(origin);
             p.IncrementQtymovements();
@@ -37,13 +39,47 @@ namespace ChessCode.chess
             {
                 captured.Add(PieceObtain);
             }
+
+            return PieceObtain;
         }
 
         public void PerformPlay(Position origin, Position destination)
         {
-            PerformMoviment(origin, destination);
-            round++;
-            changePlayer();
+            Piece PieceObtain = PerformMoviment(origin, destination);
+
+            if (isCheck(currentPlayer))
+            {
+                UndoMovement(origin, destination, PieceObtain);
+                throw new BoardException("Você não pode se cololcar em xeque!");
+            }
+            if (isCheck(adversary(currentPlayer)))
+            {
+                Check = true;
+            }
+            else
+            {
+                Check = false;
+            }
+            if (TestCheckmate(adversary(currentPlayer))){
+                finish = true;
+            }
+            else
+            {
+                round++;
+                changePlayer();
+            }
+        }
+
+        public void UndoMovement(Position origin, Position destination, Piece pieceObtain)
+        {
+            Piece p = board.RemovePiece(destination);
+            p.decrementQtymovements();
+            if (pieceObtain != null)
+            {
+                board.InsertPiece(pieceObtain,destination);
+                captured.Remove(pieceObtain);
+            }
+            board.InsertPiece(p, origin);
         }
 
         public void ValidateOriginPosition(Position pos)
@@ -107,6 +143,79 @@ namespace ChessCode.chess
             }
             aux.ExceptWith(PiecesObtained(color));
             return aux;
+        }
+
+        private Color adversary(Color color)
+        {
+            if (color == Color.White)
+            {
+                return Color.Black;
+            }
+            else
+            {
+                return Color.White;
+            }
+        }
+
+        private Piece king(Color color)
+        {
+            foreach(Piece x in PiecesInGame(color)){
+                if(x is King)
+                {
+                    return x;
+                }
+            }
+            return null;
+        }
+
+        public bool isCheck(Color color)
+        {
+            Piece K = king(color);
+            if (K == null)
+            {
+                throw new BoardException("Não tem rei da cor " + color + "no tabuleiro.");
+            }
+
+            foreach (Piece x in PiecesInGame(adversary(color)))
+            {
+                bool[,] mat = x.possibleMovements();
+                if (mat[K.position.line, K.position.column])
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public bool TestCheckmate(Color color)
+        {
+            if (!isCheck(color))
+            {
+                return false;
+            }
+            foreach(Piece x in PiecesInGame(color))
+            {
+                bool[,] mat = x.possibleMovements();
+                for (int i=0; i<board.lines; i++)
+                {
+                    for(int j = 0; j < board.columns; j++)
+                    {
+                        if (mat[i, j])
+                        {
+                            Position origin = x.position;
+                            Position destination = new Position(i, j);
+                            Piece pieceObtain = PerformMoviment(origin, destination);
+                            bool testCheck = isCheck(color);
+                            UndoMovement(origin, destination, pieceObtain);
+                            if (!testCheck)
+                            {
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+            return true;
         }
 
         public void placeNewPiece(char column, int line, Piece piece)

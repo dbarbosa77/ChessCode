@@ -43,7 +43,7 @@ namespace ChessCode
                         Console.ReadLine();
                     }
                 }
-
+                Console.Clear();
                 Screen.PrintBoard(match.board);
             }
             catch (BoardException ex) 

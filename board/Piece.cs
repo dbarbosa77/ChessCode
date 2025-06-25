@@ -15,7 +15,10 @@
             this.color = color;
             this.qtyMovements = 0;
         }
-
+        public void decrementQtymovements()
+        {
+            this.qtyMovements--;
+        }
         public void IncrementQtymovements()
         {
             this.qtyMovements++;

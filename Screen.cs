@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.NetworkInformation;
 using System.Threading.Channels;
+using System.Transactions;
 using ChessCode.board;
 using ChessCode.chess;
 
@@ -18,7 +19,19 @@ namespace ChessCode
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Turno: " + match.round);
-            Console.WriteLine("Aguardando jogada: " + match.currentPlayer);
+            if (!match.finish)
+            {
+                Console.WriteLine("Aguardando jogada: " + match.currentPlayer);
+                if (match.Check)
+                {
+                    Console.WriteLine("XEQUE");
+                }
+            }
+            else
+            {
+                Console.WriteLine("XEQUEMATE!");
+                Console.WriteLine("Vencedor: " + match.currentPlayer);
+            }
         }
 
         public static void PrintObtainedPieces(ChessMatch match)
