@@ -1,11 +1,22 @@
 ﻿using ChessCode.board;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ChessCode.chess
 {
-    class King : Piece
+    class Horse : Piece
     {
-        public King(Board board, Color color) : base( board, color)
+        public Horse(Board board, Color color) : base(board, color)
         {
+
+        }
+
+        public override string ToString()
+        {
+            return "H";
         }
 
         private bool canMove(Position pos)
@@ -14,75 +25,63 @@ namespace ChessCode.chess
             return p == null || p.color != this.color;
         }
 
+
+
         public override bool[,] possibleMovements()
         {
             bool[,] mat = new bool[board.lines, board.columns];
 
             Position pos = new Position(0, 0);
-            //acima do rei
-            pos.defineValue(position.line - 1, position.column);
-            if (board.ValidPosition(pos) && canMove(pos)) 
+
+            pos.defineValue(position.line - 1, position.column - 2);
+            if(board.ValidPosition(pos) && canMove(pos))
             {
                 mat[pos.line, pos.column] = true;
             }
 
-            //nordeste do rei
-            pos.defineValue(position.line - 1, position.column + 1);
+            pos.defineValue(position.line - 2, position.column - 1);
+            if(board.ValidPosition(pos) && canMove(pos))
+            {
+                mat[pos.line, pos.column] = true;
+            }
+
+            pos.defineValue(position.line - 2, position.column + 1);
+            if(board.ValidPosition(pos) && canMove(pos))
+            {
+                mat[pos.line, pos.column] = true;
+            }
+
+            pos.defineValue(position.line - 1, position.column + 2);
             if (board.ValidPosition(pos) && canMove(pos))
             {
                 mat[pos.line, pos.column] = true;
             }
 
-            //direita do rei
-            pos.defineValue(position.line, position.column + 1);
+            pos.defineValue(position.line + 1, position.column + 2);
             if (board.ValidPosition(pos) && canMove(pos))
             {
                 mat[pos.line, pos.column] = true;
             }
 
-            //esquerda do rei
-            pos.defineValue(position.line, position.column - 1);
+            pos.defineValue(position.line + 2, position.column + 1);
             if (board.ValidPosition(pos) && canMove(pos))
             {
                 mat[pos.line, pos.column] = true;
             }
 
-            //sudeste do rei
-            pos.defineValue(position.line + 1, position.column + 1);
+            pos.defineValue(position.line + 2, position.column - 1);
             if (board.ValidPosition(pos) && canMove(pos))
             {
                 mat[pos.line, pos.column] = true;
             }
 
-            //abaixo do rei
-            pos.defineValue(position.line + 1, position.column);
-            if (board.ValidPosition(pos) && canMove(pos))
-            {
-                mat[pos.line, pos.column] = true;
-            }
-
-            //sudoeste do rei
-            pos.defineValue(position.line + 1, position.column - 1);
-            if (board.ValidPosition(pos) && canMove(pos))
-            {
-                mat[pos.line, pos.column] = true;
-            }
-
-            //noroeste do rei
-            pos.defineValue(position.line - 1, position.column - 1);
+            pos.defineValue(position.line + 1, position.column - 2);
             if (board.ValidPosition(pos) && canMove(pos))
             {
                 mat[pos.line, pos.column] = true;
             }
 
             return mat;
-
         }
-
-        public override string ToString()
-        {
-            return "K"; // K = King
-        }
-
     }
 }
