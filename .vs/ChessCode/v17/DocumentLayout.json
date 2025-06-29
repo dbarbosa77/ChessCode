@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\chessmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:chess\\chessmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:chess\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:chess\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\chess\\chessmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|solutionrelative:chess\\chessmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33E2795E-5F56-402F-B17D-EE650EDE9180}|ChessCode.csproj|d:\\estudos\\aulasnelio\\section17 projeto chess\\chesscode\\chesscode\\board\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,17 +70,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Pawn.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\Pawn.cs",
               "RelativeDocumentMoniker": "chess\\Pawn.cs",
               "ToolTip": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\Pawn.cs",
               "RelativeToolTip": "chess\\Pawn.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAAGIAAAARAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAE0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T02:38:18.026Z",
               "EditorCaption": ""
@@ -123,13 +123,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ChessMatch.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\ChessMatch.cs",
               "RelativeDocumentMoniker": "chess\\ChessMatch.cs",
               "ToolTip": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\ChessMatch.cs",
               "RelativeToolTip": "chess\\ChessMatch.cs",
-              "ViewState": "AQIAADoBAAAAAAAAAAAAAE4BAABGAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAwwF0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T20:34:10.191Z",
               "EditorCaption": ""
@@ -172,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "King.cs",
               "DocumentMoniker": "D:\\Estudos\\AulasNelio\\Section17 Projeto Chess\\ChessCode\\ChessCode\\chess\\King.cs",
               "RelativeDocumentMoniker": "chess\\King.cs",
@@ -180,8 +180,7 @@
               "RelativeToolTip": "chess\\King.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T01:54:19.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T01:54:19.541Z"
             },
             {
               "$type": "Document",
@@ -217,8 +216,7 @@
               "RelativeToolTip": "board\\Piece.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T23:56:54.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T23:56:54.448Z"
             },
             {
               "$type": "Document",

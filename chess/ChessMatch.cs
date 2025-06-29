@@ -95,6 +95,22 @@ namespace ChessCode.chess
                 UndoMovement(origin, destination, PieceObtain);
                 throw new BoardException("Você não pode se cololcar em xeque!");
             }
+
+            Piece p = board.piece(destination);
+
+            //#jogadaespecial promocao
+            if (p is Pawn)
+            {
+                if((p.color == Color.White && destination.line == 0) || (p.color == Color.Black && destination.line ==7))
+                {
+                    p = board.RemovePiece(destination);
+                    pieces.Remove(p);
+                    Piece queen = new Queen(board, p.color);
+                    board.InsertPiece(queen, destination);
+                    pieces.Add(queen);
+                }
+            }
+
             if (isCheck(adversary(currentPlayer)))
             {
                 Check = true;
@@ -113,7 +129,6 @@ namespace ChessCode.chess
 
 
                 //#jogadaespecial en passant
-                Piece p = board.piece(destination);
                 if (p is Pawn && (destination.line == origin.line - 2 || destination.line == origin.line + 2))
                 {
                     vulnerableEnPassant = p;
